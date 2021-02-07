@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\проекты\openglproj\Engine\Engine\Source.cpp(6,18): warning C4081: требуется "идентификатор"; обнаружен "строка"
+  Engine.vcxproj -> D:\проекты\openglproj\Engine\Debug\Engine.exe
