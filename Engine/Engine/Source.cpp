@@ -1,11 +1,9 @@
-#include <iostream>
+#include "Window.h"
 
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
-
-#pragma comment(lib, "glfw3.lib")
-
-int main() {
-
+int main() 
+{	
+	Window* window = new Window(SIZE_WIDTH, SIZE_HEIGHT, "Engine", NULL, NULL);
+	window->checkStatement();
+	window->windowLoop();
 	return 0;
 }
